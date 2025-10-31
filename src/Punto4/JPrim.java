@@ -47,7 +47,7 @@ class Kruskal {
 
 class jarnickPrim {
 
-    //oporta grafos no conexos.
+    //soporta grafos no conexos.
     @SuppressWarnings("unchecked")
     static Kruskal.Result jPrim(int n, List<Edge> edges){
         // Se construyen listas de adyacencia (no dirigido)
