@@ -24,8 +24,7 @@ public class basicFordFulkerson {
         return (visited[t] == true);
     }
 
-
-    int basicFordFulkerson(int graph[][], int s, int t){
+    int fordFulkerson(int graph[][], int s, int t){
         int u,v;
         int residualGraph[][] = new int[V][V];
 
@@ -64,7 +63,7 @@ public class basicFordFulkerson {
         };
         basicFordFulkerson m = new basicFordFulkerson();
         System.out.println("El flujo Máximo es " +
-                           m.basicFordFulkerson(graph, 0, 5));
+                           m.fordFulkerson(graph, 0, 5));
     } 
 
 }
