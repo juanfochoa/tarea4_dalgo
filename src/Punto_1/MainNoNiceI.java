@@ -48,7 +48,7 @@ public class MainNoNiceI {
             System.out.println("  " + e[0] + " -> " + e[1] + "  (" + w + ")");
         }
 
-        System.out.println("\nGRAFO 2 (capacidad de cada arista):");
+        System.out.println("\nGRAFO 3 (capacidad de cada arista):");
         for (int[] e : petersenEdges) {
             int w = gC.capacity[e[0]][e[1]];
             System.out.println("  " + e[0] + " -> " + e[1] + "  (" + w + ")");
